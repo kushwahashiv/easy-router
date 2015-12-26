@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bf029e4-3933-41e1-88c4-b8c769f5947d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/db.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/employeeprovider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/router/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/router/parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/projectprovider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/router/router.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/router/routes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manualtest/server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/settings.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test-router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="easy-router.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -165,7 +181,13 @@
       <option name="project" value="LOCAL" />
       <updated>1451141819302</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="baseline">
+      <created>1451141837312</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1451141837312</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -197,7 +219,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Baselie" />
-    <option name="LAST_COMMIT_MESSAGE" value="Baselie" />
+    <MESSAGE value="baseline" />
+    <option name="LAST_COMMIT_MESSAGE" value="baseline" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

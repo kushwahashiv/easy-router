@@ -1,0 +1,27 @@
+{
+  "name": "projects",
+  "version": "0.0.1",
+  "description": "An employee-manager-projects server with node.js http router.",
+  "author": "Shiv Kushwaha",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node node_modules/nodeunit/bin/nodeunit test"
+  },
+  "keywords": [
+    "projects",
+    "router",
+    "http-router"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "benchmark": "*",
+    "nodeunit": "*"
+  },
+  "dependencies": {
+    "mongodb": "^2.0.52"
+  }
+}
