@@ -45,7 +45,6 @@ Testcases coverage
 
 Open issues
 ------------
-* ProjectProvider and EmployeeProvider controllers test case has not been covered 
-
-Conclusion
------------
+* **res.body** is not supported as of now(as in expressJs) as it requires enhancement of router for event res.on('data',... ).
+* ProjectProvider and EmployeeProvider controllers testcases has not been covered
+* It is not real-time RESTful api as it requires uses of realtime nosql db (i.e. RethinkDB, or angular FireBase which are realtime DBs). If you are using realtime DBs you just need to subscribe table(s) or its perticular field and you will get the update of it, whenever documents or any of its field gets updated.
