@@ -19,7 +19,7 @@ How to run the program
 4. you will be able to see the list of employees in json format
 5. you can run other RESTful APIs using postmon or other tools
 
-How to run Node Unit test cases
+How to run nodeunit test cases
 --------------------------------
 1. Open cmd prompt and CD to 'projects' folder
 2. Run command 'npm test' or 'node node_modules/nodeunit/bin/nodeunit test' from command prompt to launch test run
@@ -37,7 +37,7 @@ Features
 * **RegExp** for parameter testing
 * **404**, set custom not found handler
 
-Test-Case Coverage
+Testcases coverage
 -------------------------
 1. Router test cases using nodeunit
 2. Manual test cases from browser using 'node manualtest/server.js'

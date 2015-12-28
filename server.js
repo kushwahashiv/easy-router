@@ -60,6 +60,12 @@ router.get('/employee/:id/edit', function (req, res) {
 
 //save updated employee
 router.post('/employee/:id/edit', function (req, res) {
+
+    req.on('data', function(chunk) {
+        var data = chunk.toString();
+        console.log(data);
+    });
+
     employeeProvider.update(req.params['id'], {
         title: req.params['title'],
         name: req.params['name']
